@@ -1,0 +1,62 @@
+#box2-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  font-weight: normal;
+  color: #4D4D4D;
+  font-size: 14px;
+  line-height: 26px;
+  margin: 28px auto;
+}
+
+#box2-inner a {
+  color: #95AA1B;
+}
+
+#box2 .hatena-module {
+  width: calc(50% - 12px);
+}
+
+#box2 .hatena-module-title {
+  text-indent: 12px;
+  margin: 12px 0 8px;
+  border-bottom: 2px solid #EEE;
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 2px;
+  letter-spacing: 1px;
+}
+
+#box2 .hatena-module-body {
+  padding: 0 12px;
+}
+
+#box2 .hatena-module-body .archive-module-hide-button,
+#box2 .hatena-module-body .archive-module-show-button {
+  font-size: 12px;
+  vertical-align: 1px;
+}
+
+#box2 a {
+  color: #4D4D4D;
+  text-decoration: none;
+}
+
+#box2 ul {
+  list-style: disc;
+  font-size: 14px;
+  padding-left: 24px;
+}
+
+#box2 ul ul {
+  padding: 0;
+}
+
+#box2 a {
+  transition: 0.3s
+}
+
+#box2 a:hover {
+  color: #95AA1B;
+}

@@ -1,0 +1,85 @@
+#top-box * {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  color: #4D4D4D;
+}
+
+#top-box {
+  padding: 0 60px 20px;
+}
+
+#top-box a {
+  color: #5B2C00;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.75px;
+  text-decoration: none;
+}
+
+#content {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  color: #4D4D4D;
+}
+
+#content .archive-header-category {
+  display: none;
+}
+
+.archive-entries {
+  margin-top: 20px;
+}
+
+.archive-entries .date {
+  text-indent: 16px;
+}
+
+.archive-entries .date a {
+  color: #5B2C00;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.75px;
+  text-decoration: none;
+}
+
+.archive-entries .entry-title {
+  padding-bottom: 8px;
+  border-bottom: 4px solid #EEE;
+  padding-left: 16px;
+  line-height: 24px;
+}
+
+.archive-entries .entry-title a {
+  color: #4D4D4D;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.archive-entries .categories {
+  line-height: 12px;
+  margin: 8px 16px;
+}
+
+.archive-entries .categories .archive-category-link {
+  text-decoration: none;
+  color: #4D4D4D;
+  font-size: 12px;
+  padding-left: 16px;
+  margin-right: 16px;
+  background: url('https://cdn.blog.st-hatena.com/css/theme/evergreen/images/tag@2x.png') no-repeat;
+  background-size: 11px 11px;
+  background-position: left 4px;
+}
+
+.archive-entries .entry-description,
+.archive-entries .social-buttons {
+  margin: 10px 16px;
+}
+
+.archive-entries .archive-entry-header {
+  margin-top: 20px;
+}

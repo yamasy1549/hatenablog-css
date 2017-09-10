@@ -1,0 +1,21 @@
+#blog-title {
+  text-align: center;
+  padding: 180px 0 80px;
+  background: url('http://cdn-ak.f.st-hatena.com/images/fotolife/y/yamasy1549/20170910/20170910190846.png') no-repeat;
+  background-size: 220px;
+  background-position: center 84px;
+}
+
+#title a {
+  text-decoration: none;
+  color: #4D4D4D;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#blog-description {
+  font-size: 12px;
+  color: #999;
+  margin-top: 8px;
+}

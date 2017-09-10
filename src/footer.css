@@ -1,0 +1,21 @@
+#footer {
+  background: #F7F7F7;
+  text-align: center;
+  padding: 7px 0 8px 0;
+  border-top: 1px solid #EEE;
+  font-size: 12px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #4D4D4D;
+}
+
+#footer img {
+  width: 12px;
+  height: 12px;
+}
+
+#footer address {
+  line-height: 16px;
+}

@@ -1,0 +1,17 @@
+#globalheader-container {
+  background: #F7F7F7;
+  border-bottom: 1px solid #EEE;
+  padding: 1px 0;
+}
+
+#container {
+  background: #95AA1B;
+  padding: 62px;
+}
+
+#container-inner {
+  background: #F7F7F7;
+  border-radius: 8px;
+  max-width: 1000px;
+  margin: 0 auto
+}

@@ -1,0 +1,114 @@
+.entry-footer {
+  font-weight: normal;
+  color: #4D4D4D;
+  font-size: 14px;
+  line-height: 26px;
+  margin: 28px auto;
+}
+
+.entry-footer a {
+  color: #95AA1B;
+  text-decoration: none;
+}
+
+.entry-footer .hatena-star-container {
+  margin: 12px auto;
+}
+
+.hatena-module-title {
+  text-indent: 16px;
+  margin-top: 20px;
+  border-bottom: 2px solid #EEE;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 6px;
+  letter-spacing: 1px;
+}
+
+.entry-footer-modules .related-entries .related-entries-item {
+  padding: 16px;
+  position: relative;
+  height: 100px;
+  border-bottom: 2px solid #EEE;
+}
+
+.entry-footer-modules .related-entries .related-entries-item:last-child {
+  border-bottom: 0;
+}
+
+.entry-footer-modules .related-entries .related-entries-item-inner {
+  width: calc(100% - 116px);
+}
+
+.entry-footer-modules .related-entries .related-entries-image {
+  margin: 0 0 0 16px;
+  position: absolute;
+  right: 16px;
+  border-radius: 4px;
+}
+
+.entry-footer-modules .related-entries .related-entries-date-link {
+}
+
+.entry-footer-modules .related-entries .related-entries-date-link a {
+  color: #5B2C00;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.entry-footer-modules .related-entries .related-entries-title {
+  text-decoration: none;
+  color: #4D4D4D;
+  font-weight: bold;
+  transition: 0.3s
+}
+
+.entry-footer-modules .related-entries .related-entries-title:hover {
+  color: #95AA1B;
+}
+
+.entry-footer-modules .related-entries .related-entries-entry-body {
+  display: none;
+}
+
+.entry-footer .comment-box {
+  display: none;
+}
+
+.pager {
+  position: relative;
+  margin: 16px 0 52px;
+  height: 30px;
+}
+
+.pager .pager-prev a,
+.pager .pager-next a {
+  display: inline-block;
+  position: absolute;
+  background: #95AA1B;
+  padding: 8px 20px;
+  border-radius: 30px;
+  max-width: calc(50% - 8px);
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 14px;
+
+  text-decoration: none;
+  color: #FFF;
+  transition: 0.3s
+}
+
+.pager .pager-prev a {
+  left: 0;
+  margin-right: 8px;
+}
+
+.pager .pager-next a {
+  right: 0;
+  margin-left: 8px;
+}
+
+.pager a:hover {
+  transform: scale(1.05);
+}
