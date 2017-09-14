@@ -9,6 +9,20 @@
   color: #4D4D4D;
 }
 
+.entry-content table {
+  margin: 16px 0 16px 16px;
+}
+
+.entry-content table th {
+  background-color: #EEE;
+}
+.entry-content table th,
+.entry-content table td {
+  text-align: left;
+  border: 1px solid #DDD;
+  padding: 3px 7px;
+}
+
 .entry-content blockquote {
   border-left: 8px solid #EEE;
   margin-left: 16px;
