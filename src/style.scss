@@ -1,0 +1,18 @@
+@import './reset.scss';
+@import './header.scss';
+@import './title.scss';
+@import './entry.scss';
+@import './entry-content.scss';
+@import './entry-footer.scss';
+@import './box.scss';
+@import './footer.scss';
+
+@import './category.scss';
+
+:root {
+  font-family: "Open Sans", "Noto Sans CJK JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+#content {
+  padding: 0 60px 60px;
+}
