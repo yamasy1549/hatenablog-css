@@ -1,72 +1,66 @@
 .entry-footer {
-  font-weight: normal;
-  color: $black;
   font-size: 14px;
   line-height: 26px;
   margin: 28px auto;
-}
 
-.entry-footer a {
-  color: $green;
-  text-decoration: none;
-}
-
-.entry-footer .hatena-star-container {
-  margin: 12px auto;
+  .hatena-star-container {
+    margin: 12px auto;
+  }
 }
 
 .hatena-module-title {
-  text-indent: 16px;
   margin-top: 20px;
   border-bottom: 2px solid $light-gray;
   font-weight: bold;
   font-size: 20px;
-  padding-bottom: 6px;
+  line-height: 20px;
+  padding: 0 0 10px 16px;
   letter-spacing: 1px;
 }
 
-.entry-footer-modules .related-entries .related-entries-item {
-  padding: 16px;
-  position: relative;
-  height: 100px;
-  border-bottom: 2px solid $light-gray;
-}
+.entry-footer-modules .related-entries {
+  .related-entries-item {
+    padding: 16px;
+    max-height: calc(80px + 2*16px);
+    border-bottom: 2px solid $light-gray;
 
-.entry-footer-modules .related-entries .related-entries-item:last-child {
-  border-bottom: 0;
-}
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
 
-.entry-footer-modules .related-entries .related-entries-item-inner {
-  width: calc(100% - 116px);
-}
+  .related-entries-image {
+    float: right;
+    margin: 0 0 0 16px;
+    border-radius: 4px;
+    width: 80px;
+    height: 80px;
+  }
 
-.entry-footer-modules .related-entries .related-entries-image {
-  margin: 0 0 0 16px;
-  position: absolute;
-  right: 16px;
-  border-radius: 4px;
-}
+  .related-entries-date-link {
+    line-height: 20px;
 
-.entry-footer-modules .related-entries .related-entries-date-link a {
-  color: $brown;
-  font-size: 12px;
-  font-weight: bold;
-  text-decoration: none;
-}
+    a {
+      color: $brown;
+      font-size: 12px;
+      font-weight: bold;
+    }
+  }
 
-.entry-footer-modules .related-entries .related-entries-title {
-  text-decoration: none;
-  color: $black;
-  font-weight: bold;
-  transition: 0.3s
-}
+  .related-entries-title {
+    text-decoration: none;
+    color: $black;
+    font-weight: bold;
+    transition: 0.3s;
 
-.entry-footer-modules .related-entries .related-entries-title:hover {
-  color: $green;
-}
+    &:hover {
+      color: $green;
+    }
+  }
 
-.entry-footer-modules .related-entries .related-entries-entry-body {
-  display: none;
+  .related-entries-entry-body {
+    display: none;
+  }
 }
 
 .entry-footer .comment-box {
@@ -75,37 +69,39 @@
 
 .pager {
   position: relative;
-  margin: 16px 0 52px;
-  height: 30px;
-}
+  margin: 16px 0 36px;
+  height: 38px;
 
-.pager .pager-prev a,
-.pager .pager-next a {
-  display: inline-block;
-  position: absolute;
-  background: $green;
-  padding: 8px 20px;
-  border-radius: 30px;
-  max-width: calc(50% - 8px);
-  overflow: hidden;
-  white-space: nowrap;
-  font-size: 14px;
+  .pager-prev a,
+  .pager-next a {
+    display: inline-block;
+    position: absolute;
+    background: $green;
+    padding: 8px 20px;
+    border-radius: 30px;
+    max-width: calc(50% - 8px);
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 21px;
 
-  text-decoration: none;
-  color: $white;
-  transition: 0.3s
-}
+    color: $white;
+    transition: 0.3s
 
-.pager .pager-prev a {
-  left: 0;
-  margin-right: 8px;
-}
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
 
-.pager .pager-next a {
-  right: 0;
-  margin-left: 8px;
-}
+  .pager-prev a {
+    left: 0;
+  }
 
-.pager a:hover {
-  transform: scale(1.05);
+  .pager-next a {
+    right: 0;
+  }
+
+  .pager-arrow {
+    vertical-align: 1px;
+  }
 }

@@ -1,47 +1,22 @@
 .entry-date {
-  margin-bottom: 8px;
-  text-indent: 16px;
-}
-
-.entry-date a {
-  color: $brown;
-  font-size: 12px;
-  font-weight: bold;
-  letter-spacing: 0.75px;
-  text-decoration: none;
-}
-
-.entry-date .hyphen {
-  vertical-align: 1px;
+  @include date;
 }
 
 .entry-title {
-  padding-bottom: 8px;
-  border-bottom: 4px solid $light-gray;
-  padding-left: 16px;
-  line-height: 24px;
-}
-
-.entry-title a {
-  color: $black;
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: none;
-  letter-spacing: 1px;
+  @include title;
 }
 
 .entry-categories {
-  line-height: 12px;
   margin: 8px 16px;
-}
 
-.entry-categories .entry-category-link {
-  text-decoration: none;
-  color: $black;
-  font-size: 12px;
-  padding-left: 16px;
-  margin-right: 16px;
-  background: url('https://cdn.blog.st-hatena.com/css/theme/evergreen/images/tag@2x.png') no-repeat;
-  background-size: 11px 11px;
-  background-position: left 4px;
+  .entry-category-link {
+    text-decoration: none;
+    color: $black;
+    font-size: 12px;
+    padding-left: 16px;
+    margin-right: 16px;
+    background: $tag no-repeat;
+    background-size: 11px 11px;
+    background-position: left 4px;
+  }
 }

@@ -4,59 +4,62 @@
   justify-content: space-between;
 
   font-weight: normal;
-  color: $black;
   font-size: 14px;
   line-height: 26px;
   margin: 28px auto;
 }
 
-#box2-inner a {
-  color: $green;
-}
+#box2 {
+  @include hover;
 
-#box2 .hatena-module {
-  width: calc(50% - 12px);
-}
+  .hatena-module {
+    width: calc(50% - 12px);
+  }
 
-#box2 .hatena-module-title {
-  text-indent: 12px;
-  margin: 12px 0 8px;
-  border-bottom: 2px solid $light-gray;
-  font-weight: bold;
-  font-size: 16px;
-  padding-bottom: 2px;
-  letter-spacing: 1px;
-}
+  .hatena-module-title {
+    margin: 12px 0 8px;
+    border-bottom: 2px solid $light-gray;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 6px;
+    letter-spacing: 1px;
+  }
 
-#box2 .hatena-module-body {
-  padding: 0 12px;
-}
+  .hatena-module-body {
+    padding: 0 12px;
+  }
 
-#box2 .hatena-module-body .archive-module-hide-button,
-#box2 .hatena-module-body .archive-module-show-button {
-  font-size: 12px;
-  vertical-align: 1px;
-}
+  .hatena-module-body .archive-module-hide-button,
+  .hatena-module-body .archive-module-show-button {
+    font-size: 8px;
+    vertical-align: 1px;
+  }
 
-#box2 a {
-  color: $black;
-  text-decoration: none;
-}
+  ul {
+    list-style: disc;
+    font-size: 12px;
+    padding-left: 24px;
 
-#box2 ul {
-  list-style: disc;
-  font-size: 14px;
-  padding-left: 24px;
-}
+    ul {
+      padding: 0;
+    }
+  }
 
-#box2 ul ul {
-  padding: 0;
-}
+  .search-form {
+    .search-module-input {
+      border-radius: 4px;
+      border: 0;
+      background: $gray;
+      padding: 8px 12px;
+      width: 100%;
 
-#box2 a {
-  transition: 0.3s
-}
+      &:focus {
+        outline: 0;
+      }
+    }
 
-#box2 a:hover {
-  color: $green;
+    .search-module-button {
+      display: none;
+    }
+  }
 }

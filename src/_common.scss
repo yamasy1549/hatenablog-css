@@ -1,0 +1,56 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  color: $black;
+}
+
+a {
+  color: $green;
+  text-decoration: none;
+}
+
+@mixin hover {
+  a {
+    color: $black;
+    transition: 0.3s;
+
+    &:hover {
+      color: $green;
+    }
+  }
+}
+
+@mixin date {
+  height: 28px; // vertical-alignぶん上に1pxはみ出る
+  padding-left: 16px;
+  line-height: 28px;
+  font-size: 12px;
+
+  a {
+    color: $brown;
+    font-weight: bold;
+    letter-spacing: 0.75px;
+
+    .hyphen {
+      vertical-align: 1px;
+    }
+  }
+}
+
+@mixin title {
+  @include hover;
+
+  padding-bottom: 8px;
+  border-bottom: 4px solid $light-gray;
+  padding-left: 16px;
+  line-height: 20px;
+  text-indent: -2px;
+
+  a {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+}

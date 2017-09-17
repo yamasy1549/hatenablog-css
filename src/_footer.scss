@@ -4,18 +4,18 @@
   padding: 7px 0 8px 0;
   border-top: 1px solid $light-gray;
   font-size: 12px;
-}
 
-#footer a {
-  text-decoration: none;
-  color: $black;
-}
+  a {
+    text-decoration: none;
+    color: $black;
+  }
 
-#footer img {
-  width: 12px;
-  height: 12px;
-}
+  img {
+    width: 12px;
+    height: 12px;
+  }
 
-#footer address {
-  line-height: 16px;
+  address {
+    line-height: 16px;
+  }
 }
