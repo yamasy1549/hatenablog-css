@@ -4,7 +4,7 @@
 }
 
 .entry-date a {
-  color: #5B2C00;
+  color: $brown;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 0.75px;
@@ -17,13 +17,13 @@
 
 .entry-title {
   padding-bottom: 8px;
-  border-bottom: 4px solid #EEE;
+  border-bottom: 4px solid $light-gray;
   padding-left: 16px;
   line-height: 24px;
 }
 
 .entry-title a {
-  color: #4D4D4D;
+  color: $black;
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
@@ -37,7 +37,7 @@
 
 .entry-categories .entry-category-link {
   text-decoration: none;
-  color: #4D4D4D;
+  color: $black;
   font-size: 12px;
   padding-left: 16px;
   margin-right: 16px;

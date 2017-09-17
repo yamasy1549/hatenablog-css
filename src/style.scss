@@ -1,4 +1,6 @@
 @import './reset.scss';
+@import './variables.scss';
+
 @import './header.scss';
 @import './title.scss';
 @import './entry.scss';
@@ -6,7 +8,6 @@
 @import './entry-footer.scss';
 @import './box.scss';
 @import './footer.scss';
-
 @import './category.scss';
 
 :root {

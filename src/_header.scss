@@ -1,16 +1,16 @@
 #globalheader-container {
-  background: #F7F7F7;
-  border-bottom: 1px solid #EEE;
+  background: $white;
+  border-bottom: 1px solid $light-gray;
   padding: 1px 0;
 }
 
 #container {
-  background: #95AA1B;
+  background: $green;
   padding: 62px;
 }
 
 #container-inner {
-  background: #F7F7F7;
+  background: $white;
   border-radius: 8px;
   max-width: 1000px;
   margin: 0 auto

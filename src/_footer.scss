@@ -1,14 +1,14 @@
 #footer {
-  background: #F7F7F7;
+  background: $white;
   text-align: center;
   padding: 7px 0 8px 0;
-  border-top: 1px solid #EEE;
+  border-top: 1px solid $light-gray;
   font-size: 12px;
 }
 
 #footer a {
   text-decoration: none;
-  color: #4D4D4D;
+  color: $black;
 }
 
 #footer img {

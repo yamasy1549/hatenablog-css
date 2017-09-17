@@ -6,7 +6,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 26px;
-  color: #4D4D4D;
+  color: $black;
 }
 
 .entry-content table {
@@ -14,30 +14,30 @@
 }
 
 .entry-content table th {
-  background-color: #EEE;
+  background-color: $light-gray;
 }
 .entry-content table th,
 .entry-content table td {
   text-align: left;
-  border: 1px solid #DDD;
+  border: 1px solid $gray;
   padding: 3px 7px;
 }
 
 .entry-content blockquote {
-  border-left: 8px solid #EEE;
+  border-left: 8px solid $light-gray;
   margin-left: 16px;
 }
 
 .entry-content code {
   border: 0;
-  background: #EEE;
+  background: $light-gray;
   padding: 2px 6px;
   border-radius: 4px;
 }
 
 .entry-content .code {
   border: 0;
-  background: #EEE;
+  background: $light-gray;
   margin: 8px 16px;
   padding: 8px 16px;
   border-radius: 4px;
@@ -49,11 +49,11 @@
 
 .entry-content .keyword {
   text-decoration: none;
-  border-bottom: 2px dotted #EEE;
+  border-bottom: 2px dotted $light-gray;
 }
 
 .entry-content a {
-  color: #95AA1B;
+  color: $green;
   text-decoration: none;
 }
 
@@ -64,7 +64,7 @@
 .entry-content h2 {
   display: flex;
   margin-top: 20px;
-  border-bottom: 2px solid #EEE;
+  border-bottom: 2px solid $light-gray;
   font-weight: bold;
   font-size: 20px;
   padding-bottom: 6px;
@@ -109,12 +109,12 @@
 
 .entry-content strong {
   font-weight: bold;
-  background: linear-gradient(transparent 70%,rgba(237, 237, 74, 0.6) 30%);
+  background: linear-gradient(transparent 70%, rgba($yellow, 0.6) 30%);
 }
 
 .entry-content hr {
   border: 0;
-  border-bottom: 2px solid #EEE;
+  border-bottom: 2px solid $light-gray;
   width: 80px;
   margin: 18px auto;
 }
