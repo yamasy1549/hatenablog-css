@@ -9,6 +9,8 @@
     "gulp-autoprefixer": "^4.0.0",
     "gulp-clean-css": "^3.8.0",
     "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
     "minimist": "^1.2.0"
   }
 }
